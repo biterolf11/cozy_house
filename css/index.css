@@ -20,10 +20,19 @@
 }
 
 .head-section__container {
-    background: url(img/start-screen-gradient-background.png) no-repeat fixed;
+    background: url(img/bg/noise_transparent.png), url(img/bg/noise_transparent@2x.png), url(img/bg/start-screen-gradient-background.png) no-repeat center/cover;
     padding: 50px;
     justify-content: center;
     flex-direction: column;
+}
+
+.container {
+    padding: 0px 30px;
+    padding-top: 30px;
+}
+
+.head-section {
+    overflow: hidden;
 }
 
 .header {
@@ -36,19 +45,21 @@
 }
 
 .logotype-title {
-    font: 36px var(--font-family);
+    white-space: nowrap;
+    font: 1.5rem var(--font-family);
     color: var(--color-primary);
 }
 
 .logotype-subtitle {
-    font: 28px var(--font-family);
+    white-space: nowrap;
+    font: 1.25rem var(--font-family);
     color: var(--color-light-xl)
 }
 
 .nav__list {
     flex-direction: row;
     justify-content: space-between;
-    column-gap: 30px;
+    column-gap: 1rem;
 }
 
 .list__item {
@@ -63,7 +74,8 @@
 }
 
 .item-link {
-    font: 16px var(--font-family);
+    white-space: nowrap;
+    font: 1rem var(--font-family);
 }
 
 .content {
