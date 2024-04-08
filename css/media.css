@@ -1,13 +1,13 @@
-@media (max-width: 1069px) {
+@media (max-width: 1220px) {
     .container {
-        max-width: 1069px;
+        max-width: 1220px;
         max-height: 135vh;
         margin: 0;
         padding: 0px 30px;
         padding-top: 30px;
     }
 
-    .content {
+    .hero__content {
         flex-direction: column;
         padding-top: 60px;
     }

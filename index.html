@@ -12,66 +12,101 @@
 
 <body>
     <div class="wrap">
-        <section class="head-section">
-            <div class="head-section__container container flex">
+        <section class="hero">
+            <div class="hero__container container flex">
                 <header class="header flex">
-                    <div class="header__logotype">
-                        <a href="#" class="logotype-title flex">Cozy House</a>
-                        <a href="#" class="logotype-subtitle flex">Shelter for pets in Boston</a>
+                    <div class="header__logotype-set">
+                        <a href="#" class="header__title title flex">Cozy House</a>
+                        <a href="#" class="header__subtitle subtitle flex">Shelter for pets in Boston</a>
                     </div>
                     <nav class="header__nav">
-                        <ul class="nav__list flex">
-                            <li class="list__item">
-                                <a href="#" class="item-link">About the Shelter</a>
+                        <ul class="header__list flex">
+                            <li class="header__list-item">
+                                <a href="#" class="header__link">About the Shelter</a>
                             </li>
-                            <li class="list__item">
-                                <a href="#" class="item-link">Our pets</a>
+                            <li class="header__list-item">
+                                <a href="#" class="header__link">Our pets</a>
                             </li>
-                            <li class="list__item">
-                                <a href="#" class="item-link">Help the Shelter</a>
+                            <li class="header__list-item">
+                                <a href="#" class="header__link">Help the Shelter</a>
                             </li>
-                            <li class="list__item">
-                                <a href="#" class="item-link">Contacts</a>
+                            <li class="header__list-item">
+                                <a href="#" class="header__link">Contacts</a>
                             </li>
                         </ul>
                     </nav>
                 </header>
-                <div class="content flex">
+                <div class="hero__content flex">
                     <div class="content__desc flex">
-                        <h1 class="desc-title">Not only people need a house</h1>
-                        <p class="desc-subtitle">We offer to give a chance to a little and nice puppy with an extremely
+                        <h1 class="content__title title">Not only people need a house</h1>
+                        <p class="content__subtitle subtitle">We offer to give a chance to a little and nice puppy with
+                            an extremely
                             wide
                             and open heart. He or she will love you more
                             than anybody else in the world, you will see!
                         </p>
                         <div class="content__btn-wrap flex">
-                            <a href="#" class="btn-wrap_btn">Make a friend</a>
+                            <a href="#" class="content__btn">Make a friend</a>
                         </div>
                     </div>
                     <div class="content__img-wrap">
-                        <img src="css/img/start-screen-puppy.png" alt="puppy" class="img-wrap_image img-in">
+                        <img src="css/img/start-screen-puppy.png" alt="puppy" class="content__image img-in">
                     </div>
                 </div>
             </div>
         </section>
         <section class="abt-section">
             <div class="abt-section__container container flex">
-                <div class="container__contentImgWrap img-wrap">
-                    <img src="css/img/about-pets.png" alt="pets" class="contentImgWrap-img img-in">
+                <div class="abt-section__img-wrap img-wrap">
+                    <img src="css/img/about-pets.png" alt="pets" class="abt-section__img img-in">
                 </div>
-                <div class="container__contentDesc flex">
-                    <h2 class="contentDesc-title">About the shelter “Cozy House”</h2>
-                    <p class="contentDesc-subtitle">Currently we have 121 dogs and 342 cats on our hands and statistics
+                <div class="abt-section__content flex">
+                    <h2 class="content__title title">About the shelter “Cozy House”</h2>
+                    <p class="content__subtitle subtitle">Currently we have 121 dogs and 342 cats on our hands and
+                        statistics
                         show that only 20% of them will find a family. The
                         others will continue to live with us and will be waiting for a lucky chance to become dearly
                         loved.</p>
-                    <p class="contentDesc-subtitle">We feed our wards with the best food and make sure that they do not
+                    <p class="content__subtitle subtitle">We feed our wards with the best food and make sure that they
+                        do not
                         get sick, feel comfortable (including
                         psychologically) and well. We are supported by 87 volunteers and 28 employees of various skill
                         levels. About 12% of the
                         animals are taken by the shelter staff. Taking care of the animals, they become attached to the
                         pets and would hardly
                         ever leave them alone.</p>
+                </div>
+            </div>
+        </section>
+        <section class="our-pets">
+            <div class="our-pets__container container flex">
+                <h2 class="our-pets__title title">Our friends who are looking for a house</h2>
+                <nav class="our-pets__nav-arrows flex">
+                    <input type="button" value="←" class="our-pets__left-arrow">
+                    <input type="button" value="→" class="our-pets__right-arrow">
+                </nav>
+                <div class="our-pets__cards flex">
+                    <div class="our-pets__pet-card">
+                        <div class="our-pets__pet-img-wrap img-wrap">
+                            <img src="css/img/pets-katrine.jpg" alt="Katrine Img" class="our-pets__pet-img img-in">
+                        </div>
+                        <h3 class="our-pets__title subtitle">Katrine</h3>
+                        <input type="button" value="Learn More" class="our-pets__learn-btn">
+                    </div>
+                    <div class="our-pets__pet-card">
+                        <div class="our-pets__pet-img-wrap img-wrap">
+                            <img src="css/img/pets-jennifer.png" alt="Jennifer Img" class="our-pets__pet-img img-in">
+                        </div>
+                        <h3 class="our-pets__title subtitle">Jennifer</h3>
+                        <input type="button" value="Learn More" class="our-pets__learn-btn">
+                    </div>
+                    <div class="our-pets__pet-card">
+                        <div class="our-pets__pet-img-wrap img-wrap">
+                            <img src="css/img/pets-woody.png" alt="Woody Img" class="our-pets__pet-img img-in">
+                        </div>
+                        <h3 class="our-pets__title subtitle">Woody</h3>
+                        <input type="button" value="Learn More" class="our-pets__learn-btn">
+                    </div>
                 </div>
             </div>
         </section>
