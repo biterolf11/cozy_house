@@ -27,3 +27,25 @@
         max-width: 569px;
     }
 }
+
+@media (max-width: 995px) {
+    .our-pets__pet-card:nth-child(3) {
+        position: absolute;
+        opacity: 0;
+    }
+}
+
+@media (max-width: 860px) {
+    .abt-section__container {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 670px) {
+    .our-pets__pet-card:nth-child(2) {
+        position: absolute;
+        opacity: 0;
+    }
+}
