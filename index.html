@@ -7,70 +7,182 @@
     <title></title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 
 <body>
     <div class="wrap">
-        <section class="head-section">
-            <div class="head-section__container container flex">
+        <section class="hero sect">
+            <div class="hero__container container flex">
                 <header class="header flex">
-                    <div class="header__logotype">
-                        <a href="#" class="logotype-title flex">Cozy House</a>
-                        <a href="#" class="logotype-subtitle flex">Shelter for pets in Boston</a>
+                    <div class="header__logotype-set">
+                        <a href="#" class="header__title title flex">Cozy House</a>
+                        <a href="#" class="header__subtitle subtitle flex">Shelter for pets in Boston</a>
                     </div>
                     <nav class="header__nav">
-                        <ul class="nav__list flex">
-                            <li class="list__item">
-                                <a href="#" class="item-link">About the Shelter</a>
+                        <ul class="header__list flex">
+                            <li class="header__list-item">
+                                <a href="#" class="header__link">About the Shelter</a>
                             </li>
-                            <li class="list__item">
-                                <a href="#" class="item-link">Our pets</a>
+                            <li class="header__list-item">
+                                <a href="#" class="header__link">Our pets</a>
                             </li>
-                            <li class="list__item">
-                                <a href="#" class="item-link">Help the Shelter</a>
+                            <li class="header__list-item">
+                                <a href="#" class="header__link">Help the Shelter</a>
                             </li>
-                            <li class="list__item">
-                                <a href="#" class="item-link">Contacts</a>
+                            <li class="header__list-item">
+                                <a href="#" class="header__link">Contacts</a>
                             </li>
                         </ul>
                     </nav>
                 </header>
-                <div class="content flex">
+                <div class="hero__content flex">
                     <div class="content__desc flex">
-                        <h1 class="desc-title">Not only people need a house</h1>
-                        <p class="desc-subtitle">We offer to give a chance to a little and nice puppy with an extremely
+                        <h1 class="content__title title">Not only people need a house</h1>
+                        <p class="content__subtitle subtitle">We offer to give a chance to a little and nice puppy with
+                            an extremely
                             wide
                             and open heart. He or she will love you more
                             than anybody else in the world, you will see!
                         </p>
-                        <div class="content__btn-wrap">
-                            <a href="#" class="btn-wrap_btn">Make a friend</a>
+                        <div class="content__btn-wrap flex">
+                            <a href="#" class="content__btn">Make a friend</a>
                         </div>
                     </div>
-                    <div class="content__img-wrap img-wrap">
-                        <img src="css/img/start-screen-puppy.png" alt="puppy" class="img-wrap_image img-in">
+                    <div class="content__img-wrap">
+                        <img src="css/img/start-screen-puppy.png" alt="puppy" class="content__image img-in">
                     </div>
                 </div>
             </div>
         </section>
-        <section class="abt-section">
+        <section class="abt-section sect">
             <div class="abt-section__container container flex">
-                <div class="container__contentImgWrap img-wrap">
-                    <img src="css/img/about-pets.png" alt="pets" class="contentImgWrap-img img-in">
+                <div class="abt-section__img-wrap img-wrap">
+                    <img src="css/img/about-pets.png" alt="pets" class="abt-section__img img-in">
                 </div>
-                <div class="container__contentDesc flex">
-                    <h2 class="contentDesc-title">About the shelter “Cozy House”</h2>
-                    <p class="contentDesc-subtitle">Currently we have 121 dogs and 342 cats on our hands and statistics
+                <div class="abt-section__content flex">
+                    <h2 class="abt-section__title title">About the shelter “Cozy House”</h2>
+                    <p class="abt-section__subtitle subtitle">Currently we have 121 dogs and 342 cats on our hands and
+                        statistics
                         show that only 20% of them will find a family. The
                         others will continue to live with us and will be waiting for a lucky chance to become dearly
                         loved.</p>
-                    <p class="contentDesc-subtitle">We feed our wards with the best food and make sure that they do not
+                    <p class="abt-section__subtitle subtitle">We feed our wards with the best food and make sure that
+                        they
+                        do not
                         get sick, feel comfortable (including
                         psychologically) and well. We are supported by 87 volunteers and 28 employees of various skill
                         levels. About 12% of the
                         animals are taken by the shelter staff. Taking care of the animals, they become attached to the
                         pets and would hardly
                         ever leave them alone.</p>
+                </div>
+            </div>
+        </section>
+        <section class="our-pets sect">
+            <div class="our-pets__container container flex">
+                <h2 class="our-pets__title title">Our friends who are looking for a house</h2>
+                <nav class="our-pets__nav-arrows flex">
+                    <input type="button" value="←" class="our-pets__left-arrow">
+                    <input type="button" value="→" class="our-pets__right-arrow">
+                </nav>
+                <div class="our-pets__cards flex">
+                    <div class="our-pets__pet-card flex">
+                        <div class="our-pets__pet-img-wrap img-wrap">
+                            <img src="css/img/pets-katrine.jpg" alt="Katrine Img" class="our-pets__pet-img img-in">
+                        </div>
+                        <h3 class="our-pets__card-title subtitle">Katrine</h3>
+                        <input type="button" value="Learn More" class="our-pets__learn-btn">
+                    </div>
+                    <div class="our-pets__pet-card flex">
+                        <div class="our-pets__pet-img-wrap img-wrap">
+                            <img src="css/img/pets-jennifer.png" alt="Jennifer Img" class="our-pets__pet-img img-in">
+                        </div>
+                        <h3 class="our-pets__card-title subtitle">Jennifer</h3>
+                        <input type="button" value="Learn More" class="our-pets__learn-btn">
+                    </div>
+                    <div class="our-pets__pet-card flex">
+                        <div class="our-pets__pet-img-wrap img-wrap">
+                            <img src="css/img/pets-woody.png" alt="Woody Img" class="our-pets__pet-img img-in">
+                        </div>
+                        <h3 class="our-pets__card-title subtitle">Woody</h3>
+                        <input type="button" value="Learn More" class="our-pets__learn-btn">
+                    </div>
+                </div>
+                <input type="button" value="Get to know the rest" class="our-pets__get-btn">
+            </div>
+        </section>
+        <section class="help-variants">
+            <div class="container help__container flex">
+                <h2 class="title help__title">How you can help our shelter</h2>
+                <div class="help__imgs">
+                    <ul class="first-row__variants flex">
+                        <li class="first-row__variant-item img-wrap">
+                            <img class="variant__variant-img img-in" src="css/img/icon/Pet food.png" alt="Pet Food">
+                        </li>
+                        <li class="first-row__variant-item img-wrap">
+                            <img class="variant__variant-img img-in" src="css/img/icon/Transportation.png"
+                                alt="Transportation">
+                        </li>
+                        <li class="first-row__variant-item img-wrap">
+                            <img class="variant__variant-img img-in" src="css/img/icon/Toys.png" alt="Toys">
+                        </li>
+                        <li class="first-row__variant-item img-wrap">
+                            <img class="variant__variant-img img-in" src="css/img/icon/Bowls and cups.png"
+                                alt="Bowls and cups">
+                        </li>
+                        <li class="first-row__variant-item img-wrap">
+                            <img class="variant__variant-img img-in" src="css/img/icon/Shampoos.png" alt="Shampoos">
+                        </li>
+                    </ul>
+                    <ul class="second-row__variants flex">
+                        <li class="help__variant-item img-wrap">
+                            <img class="variant__variant-img img-in" src="css/img/icon/Vitamins.png" alt="Vitamins">
+                        </li>
+                        <li class="help__variant-item img-wrap">
+                            <img class="variant__variant-img img-in" src="css/img/icon/Medicines.png" alt="Medicines">
+                        </li>
+                        <li class="help__variant-item img-wrap">
+                            <img class="variant__variant-img img-in" src="css/img/icon/leashes.png"
+                                alt="Collars / leashes">
+                        </li>
+                        <li class="help__variant-item img-wrap">
+                            <img class="variant__variant-img img-in" src="css/img/icon/Sleeping area.png"
+                                alt="Sleeping area">
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section class="donation">
+            <div class="container donation__container flex">
+                <div class="dontaion__puppy-img-wrap img-wrap">
+                    <img src="css/img/donation-dog.png" alt="Dog" class="donation__puppy-img img-in">
+                </div>
+
+                <div class="donation__content flex">
+                    <h2 class="donation__title title">You can also make a donation</h2>
+                    <p class="donation__subtitle subtitle">Name of the bank / Type of bank account</p>
+
+
+
+                    <div class="donation__credit-card flex">
+                        <div class="donation__credit-card-img-wrap img-wrap">
+                            <img src="css/img/icon/credit-card.png" alt="Credit card"
+                                class="donation__credit-card-img img-in">
+                        </div>
+                        <p class="donation__card-addres">
+                            8380 2880 8028 8791 7435
+                        </p>
+                    </div>
+
+                    <p class="donation__licencse">
+                        Legal information and lorem ipsum dolor sit amet, consectetur
+                        adipiscing elit. Maecenas a ipsum at libero sagittis
+                        dignissim sed ac diam. Praesent ultrices maximus tortor et vulputate. Interdum et malesuada
+                        fames ac ante ipsum primis
+                        in faucibus.
+                    </p>
                 </div>
             </div>
         </section>
